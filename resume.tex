@@ -1,0 +1,248 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{#2}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-5pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+\textbf{\huge Shuo Liu}
+
+\vspace{5pt}
+\href{https://tenpages.github.io/}{https://tenpages.github.io/}
+
+\end{center}
+\vspace{-15pt}
+\noindent\rule{\textwidth}{1.5pt}\\
+\vspace{-5pt}
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgetown University}{Washington D.C.}
+      {Master of Science in Computer Science\emph{, Department of Computer Science}}{Aug. 2017 -- May 2019 (expected)}
+    \resumeSubheading
+      {Fudan University}{Shanghai, China}
+      {Bachelor of Science in Information and Computing Science\emph{, School of Mathematical Sciences}}{Aug. 2013 -- June 2017}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Group and population-based social media privacy attacks and analysis}{}
+      {\emph{Advisor: Lisa Singh (Professor, Georgetown University)}}{Sept. 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{Main work: }
+          {Propose methods for inferring attribute values of social media accounts based on population information from target accounts' groups or communities on social medias. Analyze proposed methods. Possibly will propose methods to weaken such kind of privacy attacks on social medias.}
+        \resumeItem{}
+          {This research is for my \emph{master thesis}. We also plan to submit the current progress to a conference in the upcoming Spring.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduate research assistant: Massive Data Institute at Georgetown University}{}
+      {\emph{Instructor: Lisa Singh (Professor, Georgetown University)}}{March 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+          {Working on \emph{webfootprint}, a social media privacy project. The project intends to develop an application that simulates several methods of social media privacy attacks, helping users checking if they are leaking personal information across social medias.}
+        \resumeItem{Main work: }
+          {Fix and implement new parts of the application using Java. Develop other possible privacy attacks.}
+        \resumeItem{}
+          {The whole project is planned on submitting an article to a journal in the upcoming Spring.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Estimation of sparse graph with \emph{lifecycle}}{}
+      {\emph{Advisor: Yun Xiong (Professor, Fudan University), Xiangnan Kong (Associate Professor, WPI)}}{Sept. 2016 -- May 2017}
+      \resumeItemListStart
+        \resumeItem{Main work: }
+          {Proposed a new kind of sparse graph estimation problem, based on domain knowledge of periods of node activities. Addressed the estimation problem with altered pathway graphical lasso algorithm.}
+        \resumeItem{}
+          {This research was my \emph{undergraduate thesis}. It is also a part of a project in the lab of Prof. Xiong's.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Course Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Streaming Algorithms: Study on Streaming Model of Entropy Approximation}{}
+      {\emph{Instructor: Justin Thayler (Assistant Professor, Georgetown University)}}{Nov. 2018 -- Dec. 2018}
+      \resumeItemListStart
+        \resumeItem{Main work: }
+          {Compare and contrast different methods of streaming algorithms for entropy approximation based on frequent items. Implement and analyze performance of methods. Write paper-like report on summary, analysis and new findings.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Data Privacy: Study on Local Private Heavy Hitters}{}
+      {\emph{Instructor: Kobbi Nissim (Professor, Georgetown University)}}{Nov. 2018 -- Dec. 2018}
+      \resumeItemListStart
+        \resumeItem{Main work: }
+          {Summarize recent researches on local private heavy hitters. Implement algorithms and analyze performance. Plan on proposing new ideas.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Text Mining: Emoji Prediction with Feature-Based Methods}{}
+      {\emph{Instructor:  Nazli Goharian (Clinical Professor, Georgetown University)}}{Sept. 2017 -- Dec. 2017}
+      \resumeItemListStart
+        \resumeItem{}
+          {In group of 3. Studied performance of different feature-based methods on predicting emojis for social media texts.}
+        \resumeItem{Main work: }
+          {Studied on possible methods for the task. Conducted experiments using Python and analyzed results. Finished the write-up.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Intro to Data Analysis: Prediction of Movie Box-office Performance}{}
+      {\emph{Instructor: Lisa Singh (Professor, Georgetown University)}}{Sept. 2017 -- Dec. 2017}
+      \resumeItemListStart
+        \resumeItem{}
+          {In group of 3. Data analytic project on possible factors that would infect box-office performance of movies. Present the results in report on interactive web pages.}
+        \resumeItem{Main work: }
+          {Proposed possible indicators of box-office performance of movies. Conducted experiments and analyzed the results mainly using Python. Finished the write-up.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Numerical Methods on Integral Equation}{}
+      {\emph{Instructor:  Yunxin Zhang (Professor, Fudan University)}}{Sept. 2016 -- Dec. 2016}
+      \resumeItemListStart
+        \resumeItem{Main work: }
+          {Implemented a general interface integrating multiple numerical methods solving integral equations using MATLAB. Made a report presenting the calculation results and analysis of performances of different methods.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Big Data Research on Scholar Cooperations in Academic Publications}{}
+      {\emph{Instructor: Yun Xiong (Professor, Fudan University)}}{Sept. 2016 -- Dec. 2016}
+      \resumeItemListStart
+        \resumeItem{}
+          {In group of 7.}
+        \resumeItem{Main work: }
+          {Collected data of publications by Fudan University from academic resource websites and built a database with the data. Presented the cooperation changes through time via visualization methods using JavaScript and CSS.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Internship}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Department of Computer Science, Georgetown University}{}
+      {Teaching Assistant, \emph{COSC 282}: Big Data Analytics}{Jan. 2019 -- May 2019}
+      \resumeItemListStart
+        \resumeItem{}
+          {Undergraduate level course. Office hours answering questions. Homework and exam gradings.}
+      \resumeItemListEnd
+    \vspace{-3pt}
+    \resumeSubheading
+      {METEK Mobile Embedded Technology Co. Ltd.}{}
+      {Data Analyst Intern, Operation Center}{Aug. 2016 -- Nov. 2016}
+      \resumeItemListStart
+        \resumeItem{Data analysis: }
+          {Analyzed numerical growth model of a mobile game before launching using Excel and MATLAB.}
+        \resumeItem{Application: }
+          {Developed a web-based operation data evaluation system for operation analysis and feedback for mobile games.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Lecturer in Olympiad in Informatics}{}
+      {Kaifeng High School}{March 2014 -- Aug. 2014}
+      \resumeItemListStart
+        \resumeItem{}
+          {Organized a weekly lecture for interested high school students in competitive programming.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\section{Honors and Activities}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {ACM ICPC Mid-Atlantic USA Regional Contest}{Baltimore, Maryland}
+      {\emph{Rank: 36/170}}{2017}
+    \resumeSubheading
+      {Annual Scholarship for Excellent Academic Performance}{Fudan University}
+      {School level}{2014 -- 2015}
+    \resumeSubheading
+      {Annual Scholarship for Excellent Academic Performance}{Fudan University}
+      {School level}{2016 -- 2017}
+    \resumeSubheading
+      {First Prize in National Olympiad in Informatics in Provinces}{Henan, China}
+      {\emph{Rank: top 30 out of 1200+ participants}}{Nov. 2011}
+  \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills and Certificates}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Programming Languages}{: Python, C/C++, SQL, Java, Scala, HTML/PHP, \LaTeX}
+    }
+    \item{
+      \textbf{Technologies}{: AWS/Azure, Apache Hadoop, Spark, Pig, Hive, Amazon DynamoDB}
+    }
+    \resumeSubheading{Shanghai Higher Education Computer Rank Examinations}{Shanghai, China}
+        {\emph{Grade 2 in C Programming, Grade 3 in Computer System and Network Technology}}{2016}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
