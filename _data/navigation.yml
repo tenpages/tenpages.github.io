@@ -16,6 +16,9 @@ header:
       ko-KR   : *KO
     url: /archive.html
 
+  - titles:   Resume
+    url: /resume
+
   - titles:
       en      : &EN       About
       en-GB   : *EN
@@ -32,3 +35,4 @@ header:
       ko      : &KO       소개
       ko-KR   : *KO
     url: /about.html
+
