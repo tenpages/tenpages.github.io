@@ -6,7 +6,7 @@
 # Site
 title: tenpages
 subtitle:
-description: dump random thoughts
+description: "dump random thoughts in chinese \n and english"
 author: Shuo Liu
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -87,7 +87,7 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2019
 
 # icon between year and author @Footer
 authoricon: heart
@@ -215,8 +215,10 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
+  GitHub: https://github.com/tenpages
+  Twitter: https://twitter.com/Ten_Pages
 
 
 # Social Links Icons
@@ -235,7 +237,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: https://pbs.twimg.com/profile_images/906150498994196481/CrWVkAOP_bigger.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -382,8 +384,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: tenpages-1
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
