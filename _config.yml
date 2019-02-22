@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: tenpages
-subtitle:
-description: "dump random thoughts in chinese \n and english"
-author: Shuo Liu
+title: ten pages
+subtitle: "dump random thoughts in chinese and english of Shuo Liu. description of me on the right, cv in the link below"
+author: tenpages
+description: I am a graduate student in computer science at <a href="http://cs.georgetown.edu"> Georgetown University </a>.
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -153,9 +153,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Muse
+scheme: Muse
 #scheme: Mist
-scheme: Pisces
+#scheme: Pisces
 
 
 # ---------------------------------------------------------------
