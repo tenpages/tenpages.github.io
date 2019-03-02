@@ -383,12 +383,12 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname: "tenpages-1"
-  count: true
+  enable: true
+  shortname: tenpages-github
+  count: false
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
-  hide: false
+  hide: true
 
 # <wildfire>
 wildfire:
