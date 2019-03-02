@@ -8,7 +8,8 @@ author: tenpages
 
 Creating (categorical) heatmaps with `matplotlib` consists of 2 steps: painting cells with colors and annotating it.
 
-<!-- more -->
+<!--more-->
+
 # Packages
 The package in need is mainly `matplotlib`.
 ```python
