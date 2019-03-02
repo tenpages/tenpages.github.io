@@ -126,7 +126,6 @@ menu:
   #commonweal: /404.html
   resume: /resume/
 
-
 # Enable/Disable menu icons.
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -153,8 +152,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -384,8 +383,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: true
-  shortname: tenpages-1
+  enable: false
+  shortname: "tenpages-1"
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
