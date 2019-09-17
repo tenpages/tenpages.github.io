@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.8.29)  17 SEP 2019 15:48
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.8.29)  17 SEP 2019 16:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -313,12 +313,12 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
  ) 
 Here is how much of TeX's memory you used:
- 9642 strings out of 492909
- 135431 string characters out of 6132923
+ 9639 strings out of 492909
+ 135336 string characters out of 6132923
  234625 words of memory out of 5000000
- 13632 multiletter control sequences out of 15000+600000
- 7153 words of font info for 39 fonts, out of 8000000 for 9000
+ 13631 multiletter control sequences out of 15000+600000
+ 7137 words of font info for 37 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 28i,11n,48p,360b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,11n,48p,360b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume.xdv (2 pages, 63376 bytes).
+Output written on resume.xdv (2 pages, 62988 bytes).
