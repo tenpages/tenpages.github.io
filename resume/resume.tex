@@ -51,10 +51,11 @@
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-5pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-4pt}
+    %\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} \hfill #2 \\
+      \textit{\small#3} \hfill \textit{\small #4}
+    %\end{tabular*}
+  \vspace{-4pt}
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
@@ -64,7 +65,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -79,6 +80,8 @@
 \vspace{5pt}
 \href{https://tenpages.github.io/}{https://tenpages.github.io/}
 
+Last edited: \today
+
 \end{center}
 \vspace{-15pt}
 \noindent\rule{\textwidth}{1.5pt}\\
@@ -88,7 +91,12 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Georgetown University}{Washington D.C.}
-      {Master of Science in Computer Science\emph{, Department of Computer Science}}{Aug. 2017 -- May 2019 (expected)}
+      {Doctor of Philosophy in Computer Science\emph{, Department of Computer Science}}{Aug. 2017 -- Present}
+    \resumeSubheading
+      {Georgetown University}{Washington D.C.}
+      {Master of Science in Computer Science\emph{, Department of Computer Science}}{Aug. 2017 -- May 2019}
+
+      \begin{small}{With thesis \emph{Understanding Relational Background Knowledge Attacks on Social Media}. Advisor: Dr. Lisa Singh}\end{small}
     \resumeSubheading
       {Fudan University}{Shanghai, China}
       {Bachelor of Science in Information and Computing Science\emph{, School of Mathematical Sciences}}{Aug. 2013 -- June 2017}
@@ -98,37 +106,32 @@
 %-----------EXPERIENCE-----------------
 \section{Research Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
-      {Group and population-based social media privacy attacks and analysis}{}
-      {\emph{Advisor: Lisa Singh (Professor, Georgetown University)}}{Sept. 2018 - Present}
+      {Graduate Thesis: \emph{Understanding Relational Background Knowledge Attacks on Social Media}}{}
+      {\emph{Advisor: Lisa Singh (Professor, Georgetown University)}}{Sept. 2018 - May 2019}
       \resumeItemListStart
         \resumeItem{Main work: }
-          {Propose methods for inferring attribute values of social media accounts based on population information from target accounts' groups or communities on social medias. Analyze proposed methods. Possibly will propose methods to weaken such kind of privacy attacks on social medias.}
-        \resumeItem{}
-          {This research is for my \emph{master thesis}. We also plan to submit the current progress to a conference in the upcoming Spring.}
+          {Propose possible privacy attacks on attribute values of social media accounts based on population information from target accounts' groups or communities on social medias. Analyze proposed methods.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Graduate research assistant: Massive Data Institute at Georgetown University}{}
-      {\emph{Instructor: Lisa Singh (Professor, Georgetown University)}}{March 2018 - Present}
+      {\emph{Instructor: Lisa Singh (Professor, Georgetown University)}}{March 2018 - May 2019}
       \resumeItemListStart
         \resumeItem{}
           {Working on \emph{webfootprint}, a social media privacy project. The project intends to develop an application that simulates several methods of social media privacy attacks, helping users checking if they are leaking personal information across social medias.}
         \resumeItem{Main work: }
           {Fix and implement new parts of the application using Java. Develop other possible privacy attacks.}
-        \resumeItem{}
-          {The whole project is planned on submitting an article to a journal in the upcoming Spring.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Estimation of sparse graph with \emph{lifecycle}}{}
+      {Undergraduate Thesis: \emph{Estimation of sparse graph with} lifecycle}{}
       {\emph{Advisor: Yun Xiong (Professor, Fudan University), Xiangnan Kong (Associate Professor, WPI)}}{Sept. 2016 -- May 2017}
       \resumeItemListStart
         \resumeItem{Main work: }
           {Proposed a new kind of sparse graph estimation problem, based on domain knowledge of periods of node activities. Addressed the estimation problem with altered pathway graphical lasso algorithm.}
         \resumeItem{}
-          {This research was my \emph{undergraduate thesis}. It is also a part of a project in the lab of Prof. Xiong's.}
+          {This research was a part of a project in the lab of Prof. Xiong's.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -186,16 +189,15 @@
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
-\section{Internship}
+\section{Teaching experience}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Department of Computer Science, Georgetown University}{}
-      {Teaching Assistant, \emph{COSC 282}: Big Data Analytics}{Jan. 2019 -- May 2019}
-      \resumeItemListStart
-        \resumeItem{}
-          {Undergraduate level course. Office hours answering questions. Homework and exam gradings.}
-      \resumeItemListEnd
-    \vspace{-3pt}
+      {Teaching Assistant, \emph{COSC 282}: Big Data Analytics, \emph{Undergraduate level}}{Jan. 2019 -- May 2019}
+  \resumeSubHeadingListEnd
+
+\section{Internship}
+  \resumeSubHeadingListStart
     \resumeSubheading
       {METEK Mobile Embedded Technology Co. Ltd.}{}
       {Data Analyst Intern, Operation Center}{Aug. 2016 -- Nov. 2016}
