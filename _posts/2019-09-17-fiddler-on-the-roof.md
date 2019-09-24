@@ -4,6 +4,7 @@ categories:
  - show comments
 tags: musical
 author: tenpages
+hidden: true
 ---
 
 虽然已经是好久（详见上一篇剧评）以前看的剧了，觉得还是应该补上剧评。

@@ -4,6 +4,7 @@ categories:
  - show comments
 tags: musical
 author: tenpages
+hidden: true
 ---
 
 虽然没有看到《阴道独白》，但是好像还是在国际妇女节前看了几个重点探讨了女性话题的剧；还有几个别的剧。争取这几天把剧评写出来。
