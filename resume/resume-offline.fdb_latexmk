@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1598584762 "resume.tex" "resume.pdf" "resume" 1598584763
+["pdflatex"] 1598584808 "resume-offline.tex" "resume-offline.pdf" "resume-offline" 1598584808
   "c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1579375523 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1579374887 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1579374887 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -80,11 +80,11 @@
   "c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1579378063 4776530 d562d98fa14b67a7fc907466713604db ""
   "c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1579378113 4291063 1ae6af619455bf304b9638a063954da2 ""
   "c:/texlive/2019/texmf.cnf" 1579378047 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "resume.aux" 1598584763 1377 5771cc7f584d126967c8526e97163d32 "pdflatex"
-  "resume.out" 1598584763 294 0c85518dc6f2bcc18f0e64919f8cfa2d "pdflatex"
-  "resume.tex" 1598584761 11069 02b71c7ba7dfe9ed6f9f836b2ef9e746 ""
+  "resume-offline.aux" 1598584808 1377 5771cc7f584d126967c8526e97163d32 "pdflatex"
+  "resume-offline.out" 1598584808 294 0c85518dc6f2bcc18f0e64919f8cfa2d "pdflatex"
+  "resume-offline.tex" 1598584806 11043 45fb8d37ca12a17e1a06482925973d92 ""
   (generated)
-  "resume.aux"
-  "resume.out"
-  "resume.pdf"
-  "resume.log"
+  "resume-offline.log"
+  "resume-offline.pdf"
+  "resume-offline.aux"
+  "resume-offline.out"
