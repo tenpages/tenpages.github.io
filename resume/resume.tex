@@ -16,6 +16,10 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
+\usepackage{datetime}
+
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH], \THEYEAR}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -79,12 +83,12 @@
 \textbf{\huge Shuo Liu}
 
 \vspace{5pt}
-\href{https://tenpages.github.io/}{https://tenpages.github.io/}
+%\href{https://tenpages.github.io/}{https://tenpages.github.io/}
 %shuoliu95@outlook.com\qquad sl1539@georgetown.edu
 
 %(202) 378-4386
 
-\date{\today}
+Last updated: \monthyeardate\today
 
 \end{center}
 \vspace{-15pt}
