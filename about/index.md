@@ -9,4 +9,9 @@ During my master's degree, My advisor was Prof. [Lisa Singh](http://people.cs.ge
 
 The title of my undergraduate thesis is "*Estimation of sparse graph with* lifecycle". My advisor was Prof. Yun Xiong at Fudan University.
 
-My first name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "stone") and 页 (meaning "page"). 石 shares the same sound with 十 (meaning "ten"), and from these I get my online nickname "tenpages". (Yeah I know it's complicated.) (Yeah I have indeed also considered something like "stone page".)
+My first name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "stone") and 页 (meaning "page"). 石 shares the same sound with 十 (meaning "ten"), and from these I get my online nickname "tenpages". (Yeah I know it's a little confusing.) (And yeah I have also considered something like "stone page".)
+
+## Publications
+
+1. **Shuo Liu**, Lisa Singh, and Kevin Tian. Information exposure from relational background knowledge on social media. In *2020 IEEE International Conference on Data Science and Advanced Analytics (DSAA)*, pages 282–291, 2020.
+2. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning using stochastic gradient descent (SGD) and norm-based comparative gradient elimination (CGE). *arXiv preprint [arXiv:2008.04699](https://arxiv.org/abs/2008.04699)*, 2020.
