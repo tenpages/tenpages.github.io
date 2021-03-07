@@ -15,3 +15,4 @@ My first name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "st
 
 1. **Shuo Liu**, Lisa Singh, and Kevin Tian. Information exposure from relational background knowledge on social media. In *2020 IEEE International Conference on Data Science and Advanced Analytics (DSAA)*, pages 282–291, 2020, doi: [10.1109/DSAA49011.2020.00041](https://doi.org/10.1109/DSAA49011.2020.00041).
 2. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning using stochastic gradient descent (SGD) and norm-based comparative gradient elimination (CGE). *arXiv preprint [arXiv:2008.04699](https://arxiv.org/abs/2008.04699)*, 2020.
+3. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Approximate Byzantine fault-tolerance in distributed optimization. *arXiv preprint* [arXiv:2101.09337](https://arxiv.org/abs/2101.09337), 2021.
