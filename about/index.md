@@ -15,8 +15,8 @@ My first name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "st
 
 ### Conference papers
 
-3. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Approximate Byzantine fault-tolerance in distributed optimization. In *Proceedings of the 39th Symposium on Principles of Distributed Computing*. 2021. (to appear)
-2. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning with norm-based comparative gradient elimination. In *2021 51th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN-W)*. IEEE, 2021. (to appear)
+3. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Approximate Byzantine fault-tolerance in distributed optimization. In *Proceedings of the 39th Symposium on Principles of Distributed Computing*, 2021. (to appear)
+2. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning with norm-based comparative gradient elimination. In *2021 51th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN-W)*, IEEE, 2021. (to appear)
 1. **Shuo Liu**, Lisa Singh, and Kevin Tian. Information exposure from relational background knowledge on social media. In *2020 IEEE International Conference on Data Science and Advanced Analytics (DSAA)*, pages 282–291, 2020, doi: [10.1109/DSAA49011.2020.00041](https://doi.org/10.1109/DSAA49011.2020.00041).
 
 ### Preprints
