@@ -11,7 +11,7 @@ The title of my undergraduate thesis is "*Estimation of sparse graph with* lifec
 
 My first name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "stone") and 页 (meaning "page"). 石 shares the same sound with 十 (meaning "ten"), and from these I get my online nickname "tenpages". (Yeah I know it's a little confusing.) (And yeah I have also considered something like "stone page".)
 
-## Publications
+## Publications {{ readFile "/assets/images/dblp.svg" | https://dblp.org/pid/07/6773-11.html }}
 
 ### Conference papers
 
