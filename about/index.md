@@ -13,6 +13,8 @@ My first name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "st
 
 ## Publications
 
+Find me on *[dblp](url="https://dblp.org/pid/07/6773-11.html)* and *[Google Scholar](https://scholar.google.com/citations?user=we4RLnYAAAAJ)*.
+
 ### Conference papers
 
 3. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Approximate Byzantine fault-tolerance in distributed optimization. In *Proceedings of the 39th Symposium on Principles of Distributed Computing*, 2021. (to appear)
@@ -23,6 +25,4 @@ My first name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "st
 
 2. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Approximate Byzantine fault-tolerance in distributed optimization. *arXiv preprint* [arXiv:2101.09337](https://arxiv.org/abs/2101.09337), 2021.
 1. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning using stochastic gradient descent (SGD) and norm-based comparative gradient elimination (CGE). *arXiv preprint* [arXiv:2008.04699](https://arxiv.org/abs/2008.04699), 2020.
-
-Or find me on *[dblp](url="https://dblp.org/pid/07/6773-11.html)* and *[Google Scholar](https://scholar.google.com/citations?user=we4RLnYAAAAJ)*.
 
