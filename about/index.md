@@ -11,7 +11,7 @@ The title of my undergraduate thesis is "*Estimation of sparse graph with* lifec
 
 My first name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "stone") and 页 (meaning "page"). 石 shares the same sound with 十 (meaning "ten"), and from these I get my online nickname "tenpages". (Yeah I know it's a little confusing.) (And yeah I have also considered something like "stone page".)
 
-## Publications {{ readFile "/assets/images/dblp.svg" | https://dblp.org/pid/07/6773-11.html }}
+## Publications
 
 ### Conference papers
 
@@ -22,4 +22,7 @@ My first name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "st
 ### Preprints
 
 2. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Approximate Byzantine fault-tolerance in distributed optimization. *arXiv preprint* [arXiv:2101.09337](https://arxiv.org/abs/2101.09337), 2021.
-1. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning using stochastic gradient descent (SGD) and norm-based comparative gradient elimination (CGE). *arXiv preprint [arXiv:2008.04699](https://arxiv.org/abs/2008.04699)*, 2020.
+1. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning using stochastic gradient descent (SGD) and norm-based comparative gradient elimination (CGE). *arXiv preprint* [arXiv:2008.04699](https://arxiv.org/abs/2008.04699), 2020.
+
+Or find me on *[dblp](url="https://dblp.org/pid/07/6773-11.html)* and *[Google Scholar](https://scholar.google.com/citations?user=we4RLnYAAAAJ)*.
+
