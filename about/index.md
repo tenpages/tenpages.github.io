@@ -13,7 +13,7 @@ My first name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "st
 
 ## Publications
 
-Find me on *[dblp](url=https://dblp.org/pid/07/6773-11.html)* and *[Google Scholar](https://scholar.google.com/citations?user=we4RLnYAAAAJ)*.
+Find me on *[dblp](https://dblp.org/pid/07/6773-11.html)* and *[Google Scholar](https://scholar.google.com/citations?user=we4RLnYAAAAJ)*.
 
 ### Conference papers
 
