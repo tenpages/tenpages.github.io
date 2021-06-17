@@ -23,7 +23,8 @@ Find me on *[dblp](https://dblp.org/pid/07/6773-11.html)* and *[Google Scholar](
 
 ### Preprints
 
-2. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Asynchronous Distributed Optimization with Redundancy in Cost Functions. *arXiv preprint* [arXiv:2106.03998](https://arxiv.org/abs/2106.03998), 2021.
-3. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Approximate Byzantine fault-tolerance in distributed optimization. *arXiv preprint* [arXiv:2101.09337](https://arxiv.org/abs/2101.09337), 2021.
-4. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning using stochastic gradient descent (SGD) and norm-based comparative gradient elimination (CGE). *arXiv preprint* [arXiv:2008.04699](https://arxiv.org/abs/2008.04699), 2020.
+2. **Shuo Liu**. A Survey on Fault-tolerance in Distributed Optimization and Machine Learning. *arXiv preprint* [arXiv:2106.08545](https://arxiv.org/abs/2106.08545), 2021.
+3. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Asynchronous Distributed Optimization with Redundancy in Cost Functions. *arXiv preprint* [arXiv:2106.03998](https://arxiv.org/abs/2106.03998), 2021.
+4. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Approximate Byzantine fault-tolerance in distributed optimization. *arXiv preprint* [arXiv:2101.09337](https://arxiv.org/abs/2101.09337), 2021.
+5. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning using stochastic gradient descent (SGD) and norm-based comparative gradient elimination (CGE). *arXiv preprint* [arXiv:2008.04699](https://arxiv.org/abs/2008.04699), 2020.
 
