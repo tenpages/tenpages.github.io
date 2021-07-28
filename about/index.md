@@ -17,9 +17,9 @@ Find me on *[dblp](https://dblp.org/pid/07/6773-11.html)* and *[Google Scholar](
 
 ### Conference papers
 
-3. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Approximate Byzantine fault-tolerance in distributed optimization. In *Proceedings of the 39th Symposium on Principles of Distributed Computing*, 2021. (to appear)
-2. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning with norm-based comparative gradient elimination. In *2021 51th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN-W)*, IEEE, 2021. (to appear)
-1. **Shuo Liu**, Lisa Singh, and Kevin Tian. Information exposure from relational background knowledge on social media. In *2020 IEEE International Conference on Data Science and Advanced Analytics (DSAA)*, pages 282–291, 2020, doi: [10.1109/DSAA49011.2020.00041](https://doi.org/10.1109/DSAA49011.2020.00041).
+1. **Shuo Liu**, Nirupam Gupta, and Nitin H. Vaidya. Approximate Byzantine Fault-Tolerance in Distributed Optimization. In *Proceedings of the 2021 ACM Symposium on Principles of Distributed Computing* (*PODC'21*). Association for Computing Machinery, New York, NY, USA, 379–389. DOI: [10.1145/3465084.3467902](https://dl.acm.org/doi/10.1145/3465084.3467902). ([Talk](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3465084.3467902&file=podc-21-full%7E1.mp4))
+2. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning with norm-based comparative gradient elimination. In *2021 51th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN-W)*, IEEE, 2021. ([Talk](https://www.youtube.com/watch?v=Yd-wYGc0PzM))
+3. **Shuo Liu**, Lisa Singh, and Kevin Tian. Information exposure from relational background knowledge on social media. In *2020 IEEE International Conference on Data Science and Advanced Analytics (DSAA)*, pages 282–291, 2020, doi: [10.1109/DSAA49011.2020.00041](https://doi.org/10.1109/DSAA49011.2020.00041).
 
 ### Preprints
 
