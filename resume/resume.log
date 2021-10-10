@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.18)  22 SEP 2021 21:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.18)  30 SEP 2021 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -407,23 +407,23 @@ This may cause the page layout to be inconsistent, however.
 [1
 
 {c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 289.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 289.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
 
 (./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 289.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 289.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 3592414A3736BF00D166B923BC5FC98C;360.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 289.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
  ) 
 Here is how much of TeX's memory you used:
- 7916 strings out of 492162
- 115500 string characters out of 6129062
+ 7919 strings out of 492162
+ 115525 string characters out of 6129062
  248420 words of memory out of 5000000
- 12109 multiletter control sequences out of 15000+600000
- 8965 words of font info for 33 fonts, out of 8000000 for 9000
+ 12110 multiletter control sequences out of 15000+600000
+ 9263 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,11n,45p,988b,598s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
@@ -433,10 +433,10 @@ dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2019/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmti10.pfb>
-Output written on resume.pdf (3 pages, 114453 bytes).
+Output written on resume.pdf (3 pages, 114653 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
