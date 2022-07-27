@@ -24,6 +24,7 @@ Find me on *[dblp](https://dblp.org/pid/07/6773-11.html)* and *[Google Scholar](
 
 ### Preprints
 
+1. **Shuo Liu**, and Nitin Vaidya. Byzantine Fault-Tolerant Min-Max Optimization. *arXiv preprint* [arXiv:2205.14881](https://arxiv.org/abs/2205.14881), 2022.
 2. **Shuo Liu**. A Survey on Fault-tolerance in Distributed Optimization and Machine Learning. *arXiv preprint* [arXiv:2106.08545](https://arxiv.org/abs/2106.08545), 2021.
 3. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Asynchronous Distributed Optimization with Redundancy in Cost Functions. *arXiv preprint* [arXiv:2106.03998](https://arxiv.org/abs/2106.03998), 2021.
 4. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Approximate Byzantine fault-tolerance in distributed optimization. *arXiv preprint* [arXiv:2101.09337](https://arxiv.org/abs/2101.09337), 2021.
