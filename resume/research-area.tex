@@ -1,0 +1,91 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+% \addtolength{\oddsidemargin}{-0.5in}
+% \addtolength{\evensidemargin}{-0.5in}
+% \addtolength{\textwidth}{1in}
+% \addtolength{\topmargin}{-.5in}
+% \addtolength{\textheight}{1.0in}
+
+% \urlstyle{same}
+
+% \raggedbottom
+% \raggedright
+% \setlength{\tabcolsep}{0in}
+
+% % Sections formatting
+% \titleformat{\section}{
+%   \vspace{-10pt}\scshape\raggedright\large
+% }{}{0em}{}[\color{black}\titlerule]
+
+% %-------------------------
+% % Custom commands
+% \newcommand{\resumeItem}[2]{
+%   \vspace{-3pt}
+%   \item{
+%     \textbf{#1}{#2}
+%   }
+% }
+
+% \newcommand{\resumeSubheading}[4]{
+%   \vspace{-7pt}\item
+%     %\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%       \textbf{#1} \hfill #2 \\
+%       \textit{\small#3} \hfill \textit{\small #4}
+%     %\end{tabular*}
+%   \vspace{-4pt}
+% }
+
+% \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}}
+
+% \renewcommand{\labelitemii}{$\circ$}
+
+% \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+% \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+% \newcommand{\resumeItemListStart}{\begin{itemize}}
+% \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage[numbers, sort, compress]{natbib}
+
+\begin{document}
+
+My current research topic as a PhD student in computer science at Georgetown University is \textit{resilient distributed optimization algorithms} and their application to machine learning. Specifically, I, along with other members in the research group, studied the impact of redundancy property of cost functions of agents in achieving resilient distributed optimization, against Byzantine faulty agents (agents that can behave arbitrarily) and asynchronous agents (agents that take longer time to run). We show the need of such redundancy in solving Byzantine fault-tolerant distributed optimization problems \cite{liu2021approximate}. We also present algorithms that solves these resilient optimization problems practically \cite{liu2021approximate, liu2021asynchronous}. Furthermore, we demonstrate the applicability of these results in scenarios of distributed machine learning, both in theory and empirically \cite{gupta2021byzantine, liu2021approximate, liu2021asynchronous, liu2021utilizing}. My works also include a survey in fault-tolerant distributed optimization \cite{liu2021survey}. \\
+
+The empirical studies in the aforementioned publications is conducted using a simulator of distributed machine learning written by me using \textit{Python} with \textit{PyTorch}. \\
+
+My master thesis studied a possible privacy attack against social media accounts that can reveal hidden information of a target user, utilizing background knowledge built up on information of the members that have strong connections with the target user \cite{liu2020information}. \\
+
+I am interested in research topics and opportunities related to my experiences, including but not limited to distributed optimization, machine learning, privacy, social media analysis, etc.
+
+\bibliographystyle{plain}
+\footnotesize{
+\bibliography{bib}}
+
+\end{document}
