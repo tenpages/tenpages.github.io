@@ -1,11 +1,10 @@
 ---
 title: 总结一下暑假里看的戏
 categories:
-
  - show comments
-   tags: musical
-   author: tenpages
-   hidden: true
+tags: musical
+author: tenpages
+hidden: true
 ---
 
 好久没有写过剧评了，不过距离上次写剧评中间也没怎么进过剧场，直到今年暑假在纽约看了个够。想简单地总结一下。以下大约是按观看顺序排列的。
