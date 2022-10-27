@@ -15,6 +15,7 @@ const messages = {
             data_level_3: 'Visited Here',
             data_level_2: 'Stopped Here',
             data_level_1: 'Passed Here',
+            data_level_0_alt: 'Want to be Here',
             data_level_0: 'Never Been Here',
             pt: 'pt | pts',
         },
@@ -32,12 +33,12 @@ const messages = {
             Maine: 'Maine',
             New_Hampshire: 'New Hampshire',
             Vermont: 'Vermont',
-            Massachusettes: 'Massachusettes',
+            Massachusettes: 'Massachusetts',
             Connecticut: 'Connecticut',
             New_York: 'New York',
             Rhode_Island: 'Rhode Island',
             Pennsylvania: 'Pennsylvania',
-            New_Jersy: 'New Jersy',
+            New_Jersy: 'New Jersey',
             Delaware: 'Delaware',
             Virginia: 'Virginia',
             DC: 'Washington DC',
@@ -84,6 +85,7 @@ const messages = {
             data_level_3: '游玩过',
             data_level_2: '中转过',
             data_level_1: '路过',
+            data_level_0_alt: '想要去',
             data_level_0: '没去过',
             pt: '分',
         },
@@ -153,6 +155,7 @@ const messages = {
             data_level_3: '遊玩過',
             data_level_2: '中轉過',
             data_level_1: '路過',
+            data_level_0_alt: '想要去',
             data_level_0: '沒去過',
             pt: '分',
         },
@@ -222,6 +225,7 @@ const messages = {
             data_level_3: '訪問',
             data_level_2: '接地',
             data_level_1: '通過',
+            data_level_0_alt: '行きたい',
             data_level_0: '未踏',
             pt: '分',
         },
@@ -294,6 +298,17 @@ const app1 = Vue.createApp().use(i18n).mount("#Layer_4")
 const app2 = Vue.createApp().use(i18n).mount("#设置等级")
 const app3 = Vue.createApp().use(i18n).mount("#Texts")
 
+const 颜色 = ['#F9CDC7', '#C5F9CB', '#CDE8F4', '#FDE8C4', '#D0DCD7', '#E1CEF5', '#D6D6D6'];
+const 颜色_randomizer = Math.floor(Math.random() * 7);
+如何做爱元素.style.backgroundColor = 颜色[颜色_randomizer]
+添加事件监控(如何做爱元素,'click',e=>{
+    if (e.target == 文档.body) {
+        const 颜色a = Math.floor(Math.random() * 50) + 176;
+        const 颜色b = Math.floor(Math.random() * 50) + 176;
+        const 颜色c = Math.floor(Math.random() * 50) + 176;
+        如何做爱元素.style.backgroundColor = '#' + 颜色a.toString(16) + 颜色b.toString(16) + 颜色c.toString(16)
+    }
+})
 
 const 设置等级标题 = 设置等级.children[0];
 
@@ -306,15 +321,25 @@ const 获取所有省元素们 = _=>[...地区.children];
 const 获取所有省等级们 = _=>获取所有省元素们().map(el=>+el.getAttribute('level')||0);
 const 本地存储等级们钥匙 = 'us-levels';
 const 保存等级们 = _=>{
-    本地存储.setItem(本地存储等级们钥匙,获取所有省等级们().join(''));
+    let 本地存储value = ""
+    for (const 省元素 of 获取所有省元素们()) {
+        if (省元素.getAttribute('alt') == "true") {
+            本地存储value += '-'
+            console.log("省元素")
+        }
+        else 本地存储value += 省元素.getAttribute('level')||0
+    }
+    console.log(本地存储value)
+    本地存储.setItem(本地存储等级们钥匙,本地存储value);
 };
-const 省等级们正则 = /^\d{34}$/;
+const 省等级们正则 = /^[\d|-]{56}$/;
 const 获取等级们并生效 = _=>{
     const 等级们字串 = 本地存储.getItem(本地存储等级们钥匙);
     if(!省等级们正则.test(等级们字串)) return;
     const 等级们 = 等级们字串.split('');
     获取所有省元素们().forEach((元素,下标)=>{
-        元素.setAttribute('level',等级们[下标])
+        元素.setAttribute('level',等级们[下标]=='-'?'0':等级们[下标])
+        if (等级们[下标]=='-') 元素.setAttribute('alt', true);
     })
 };
 const 图形 = 文档.querySelector('svg');
@@ -369,6 +394,9 @@ const 计分 = _=>{
     const 等级 = e.target.getAttribute('data-level');
     if(!等级) return false;
     数据.省元素.setAttribute('level',等级);
+    const alt = e.target.hasAttribute('alt');
+    if (alt) 数据.省元素.setAttribute('alt',true)
+    else 数据.省元素.setAttribute('alt',false);
     全关闭();
     计分();
     保存等级们();
@@ -491,10 +519,8 @@ const 日志 = _=>(新建图()).src = `https://lab.magiconch.com/api/china-ex/lo
 const 保存图像 = _=>{
     const 文档文本 = `<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${宽} ${高}" width="${宽}px" height="${高}px">${图形.innerHTML}</svg>`;
     const 数据地址 = 从文档文本新建图形文件(文档文本);
-    // open(数据地址);
-    // return ;
     地址变图像元素(数据地址,图=>{
-        上下文.fillStyle = '#b4b4ef';
+        上下文.fillStyle = 如何做爱元素.style.backgroundColor; //'#b4b4ef';
         上下文.fillRect(
             0,0,
             宽 * 比,宽 * 比
@@ -506,7 +532,6 @@ const 保存图像 = _=>{
             0,(宽 - 高) * 比 / 2,
             宽 * 比, 高 * 比
         );
-        // return 下载文件(画板.toDataURL(),`[神奇海螺][中国制霸]${+new Date()}.png`,保存);
         画板.toBlob(元素数据=>{
             const 地址 = URL.createObjectURL(元素数据);
             下载文件(地址,`US Level 0.png`);
