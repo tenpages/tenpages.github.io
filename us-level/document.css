@@ -1,6 +1,6 @@
 html {
   font: 18px/40px slice, sans-serif;
-  background-color: #b4b4ef;
+  background-color: #c5f9cb;
   color: #111;
 }
 body {
@@ -102,6 +102,10 @@ a {
 #设置等级 h2[data-level="1"],
 #设置等级 a[data-level="1"] {
   background: #88AEFF;
+}
+#设置等级 h2[data-level="0"][alt],
+#设置等级 a[data-level="0"][alt] {
+  background: #d6beff;
 }
 .按钮 {
   background: #FFF;
