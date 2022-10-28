@@ -259,6 +259,69 @@ const messages = {
             Monaco: 'モナコ',
             Malta: 'マルタ',
         }    
+    },
+    Español: {
+        message: {
+            data_level_5: 'Vivido Aqui',
+            data_level_4: 'Quedado Aqui',
+            data_level_3: 'Visitado Aqui',
+            data_level_2: 'Detuvido Aqui',
+            data_level_1: 'Pase por Aqui',
+            data_level_0_alt: 'Quiero ir',
+            data_level_0: 'Nunca he estado',
+            pt: 'pt | pts',
+        },
+        country_name: {
+            UK: 'Reino Unido',
+            Ireland: 'Irlanda',
+            Belgium: 'Bélgica',
+            Netherlands: 'Holanda',
+            Spain: 'España',
+            France: 'Francia',
+            Andorra: 'Andorra',
+            Portugal: 'Portugal',
+            Austria: 'Austria',
+            Germany: 'Alemania',
+            Luxembourg: 'Luxemburgo',
+            Switzerland: 'Suiza',
+            Slovenia: 'Eslovenia',
+            Croatia: 'Croacia',
+            Bosnia_and_Herzegovina: 'Bosnia y Herzegovina',
+            Denmark: 'Dinamarca',
+            Norway: 'Noruega',
+            Sweden: 'Suecia',
+            Finland: 'Finlandia',
+            Estonia: 'Estonia',
+            Latvia: 'Latvia',
+            Ukraine: 'Ukrania',
+            Belarus: 'Bielorrusia',
+            Lithuania: 'Lituania',
+            Poland: 'Polonia',
+            Czechia: 'República Checa',
+            Slovakia: 'Eslovaquia',
+            Hungary: 'Hungaria',
+            Serbia: 'Serbia',
+            Montenegro: 'Montenegro',
+            Greece: 'Grecia',
+            North_Macedonia: 'Macedonia del Norte',
+            Albania: 'Albania',
+            Italy: 'Italia',
+            Bulgaria: 'Bulgaria',
+            Romania: 'Romania',
+            Moldova: 'Moldova',
+            Liechtenstein: 'Liechtenstein',
+            Turkey: 'Turquía',
+            Cyprus: 'Chipre',
+            Vatican_City: 'Ciudad del Vaticano',
+            San_Marino: 'San Marino',
+            Iceland: 'Islandia',
+            Russia: 'Rusia',
+            Georgia: 'Georgia',
+            Azerbaijan: 'Azerbaiyán',
+            Armenia: 'Armenia',
+            Monaco: 'Mónaco',
+            Malta: 'Malta',
+        }
     }
 }
 const i18n = VueI18n.createI18n({
@@ -368,8 +431,8 @@ const 计分 = _=>{
     const 分 = 获取所有省等级们().reduce((全, 当前) => {
         return +全 + 当前;
       }, 0);
-    Total.innerHTML = `EU Level ${分}`;
-    webtitle.innerHTML = `EU Level ${分}`;
+    Total.innerHTML = `Europe Level ${分}`;
+    webtitle.innerHTML = `Europe Level ${分}`;
 }
 添加事件监控(设置等级,'click',e=>{
     e.stopPropagation();
@@ -392,6 +455,19 @@ const 计分 = _=>{
     else 数据.省元素.setAttribute('alt',false);
     全关闭();
     计分();
+    保存等级们();
+})
+添加事件监控(Reset,'click',e=>{
+    获取所有省元素们().forEach((元素,下标)=>{
+        元素.setAttribute('level','0')
+        元素.setAttribute('alt', false);
+        if (元素.nodeName == 'g') {
+            for (const child of 元素.children) {
+                child.setAttribute('level','0');
+                child.setAttribute('alt', false);
+            }
+        }
+    })
     保存等级们();
 })
 
@@ -526,7 +602,7 @@ const 保存图像 = _=>{
         );
         画板.toBlob(元素数据=>{
             const 地址 = URL.createObjectURL(元素数据);
-            下载文件(地址,`EU Level 0.png`);
+            下载文件(地址,`Europe Level 0.png`);
 
             输出图像.style.display = '';
             输出图像.querySelector('img').src = 地址;
