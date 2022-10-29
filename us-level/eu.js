@@ -72,6 +72,71 @@ const messages = {
             Kosovo: 'Kosovo',
         }
     },
+    Danish: {
+        message: {
+            data_level_5: 'Boede her',
+            data_level_4: 'Overnattet her',
+            data_level_3: 'Besøgte her',
+            data_level_2: 'Stoppede her',
+            data_level_1: 'Passerede her',
+            data_level_0_alt: 'Ville gerne bo her',
+            data_level_0: 'Har ikke været her',
+            pt: 'pnt | pnt',
+        },
+        country_name: {
+            UK: 'Storbritannien',
+            Ireland: 'Irland',
+            Belgium: 'Belgien',
+            Netherlands: 'Holland',
+            Spain: 'Spainen',
+            France: 'Frankrig',
+            Andorra: 'Andorra',
+            Portugal: 'Portugal',
+            Austria: 'Østrig',
+            Germany: 'Tyskland',
+            Luxembourg: 'Luxembourg',
+            Switzerland: 'Schweiz',
+            Slovenia: 'Slovenien',
+            Croatia: 'Kroatien',
+            Bosnia_and_Herzegovina: 'Bosnien og herzegovina',
+            Denmark: 'Danmark',
+            Norway: 'Norge',
+            Sweden: 'Sverige',
+            Finland: 'Finland',
+            Estonia: 'Estland',
+            Latvia: 'Letland',
+            Ukraine: 'Ukraine',
+            Belarus: 'Hviderusland',
+            Lithuania: 'Litauen',
+            Poland: 'Polen',
+            Czechia: 'Tjekkiet',
+            Slovakia: 'Slovakiet',
+            Hungary: 'Ungarn',
+            Serbia: 'Serbien',
+            Montenegro: 'Montenegro',
+            Greece: 'Grækenland',
+            North_Macedonia: 'Nordmakedonien',
+            Albania: "Albanien",
+            Italy: 'Italien',
+            Bulgaria: 'bulgarien',
+            Romania: 'Rumænien',
+            Moldova: 'Molodova',
+            Liechtenstein: 'Liechtenstein',
+            Turkey: 'Tyrkiet',
+            Cyprus: 'Cypern',
+            Vatican_City: 'Vatikanstaten',
+            San_Marino: 'San Marino',
+            Iceland: 'island',
+            Russia: 'Rusland',
+            Georgia: 'Georgien',
+            Azerbaijan: 'Aserbajdsjan',
+            Armenia: 'Armenien',
+            Monaco: 'Monaco',
+            Malta: 'Malta',
+            Kosovo: 'Kosovo',
+
+        }
+    },
     简体中文: {
         message: {
             data_level_5: '居住过',
@@ -391,6 +456,70 @@ const messages = {
             Malta: 'Мальта',
             Kosovo: 'Косово',
         }
+    },
+    עברית: {
+        message: {
+            data_level_5: 'גרת פו',
+            data_level_4: 'נשאר',
+            data_level_3: 'ביקר',
+            data_level_2: 'עצר',
+            data_level_1: 'עברה את הארץ',
+            data_level_0_alt: 'רוצה לבקר',
+            data_level_0: 'מעולם לא הייתי',
+            pt: 'יח',
+        },
+        country_name: {
+            UK: 'בריטניה הגדולה',
+            Ireland: 'אירלנד',
+            Belgium: 'בלגיה',
+            Netherlands: 'הולנד',
+            Spain: 'סְפָרַד',
+            France: 'צָרְפַת',
+            Andorra: 'אנדורה',
+            Portugal: 'פּוֹרטוּגָל',
+            Austria: 'אוֹסְטְרֵיָה',
+            Germany: 'גֶרמָנִיָה',
+            Luxembourg: 'לוקסמבורג',
+            Switzerland: 'שוויץ',
+            Slovenia: 'סלובניה',
+            Croatia: 'קרואטיה',
+            Bosnia_and_Herzegovina: 'בוסניה והרצגובינה',
+            Denmark: 'דנמרק',
+            Norway: 'נורווגיה',
+            Sweden: 'שבדיה',
+            Finland: 'פינלנד',
+            Estonia: 'אסטוניה',
+            Latvia: 'לטביה',
+            Ukraine: 'אוקראינה',
+            Belarus: 'בלארוס',
+            Lithuania: 'ליטא',
+            Poland: 'פּוֹלִין',
+            Czechia: 'צכית',
+            Slovakia: 'סלובקיה',
+            Hungary: 'הונגריה',
+            Serbia: 'סרביה',
+            Montenegro: 'מונטנגרו',
+            Greece: 'יוון',
+            North_Macedonia: 'צפון מקדוניה',
+            Albania: 'אלבניה',
+            Italy: 'איטליה',
+            Bulgaria: 'בולגריה',
+            Romania: 'רומניה',
+            Moldova: 'מולדובה',
+            Liechtenstein: 'ליכטנשטיין',
+            Turkey: 'טורקיה',
+            Cyprus: 'קפריסין',
+            Vatican_City: 'עיר הותיקן',
+            San_Marino: 'סן מרינו',
+            Iceland: 'איסלנד',
+            Russia: 'רוסיה',
+            Georgia: 'גאורגיה',
+            Azerbaijan: 'אזרבייגן',
+            Armenia: 'ארמניה',
+            Monaco: 'מונקו',
+            Malta: 'מלטה',
+            Kosovo: 'קוסובו',
+        }
     }
 }
 const i18n = VueI18n.createI18n({
@@ -434,10 +563,12 @@ const 保存等级们 = _=>{
     }
     本地存储.setItem(本地存储等级们钥匙,本地存储value);
 };
-const 省等级们正则 = /^[\d|-]{49}$/;
+const 省等级们正则 = /^[\d|-]{50}$/;
 const 获取等级们并生效 = _=>{
     let 等级们字串 = 本地存储.getItem(本地存储等级们钥匙);
-    if(/^[\d|-]{48}$/.test(等级们字串)) 等级们字串+='0'; // handling legacy localstorage
+    console.log(等级们字串.length)
+    if(/^[\d|-]{49}$/.test(等级们字串)) 等级们字串+='0'; // handling legacy localstorage
+    console.log(等级们字串)
     if(!省等级们正则.test(等级们字串)) return;
     const 等级们 = 等级们字串.split('');
     获取所有省元素们().forEach((元素,下标)=>{
