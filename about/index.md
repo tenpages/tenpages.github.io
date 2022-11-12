@@ -13,7 +13,7 @@ My given name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "st
 
 ## Random stuff
 
-I recently made a [web app](tenpages.github.io/us-level/us.html) ([github](https://github.com/tenpages/us-level)) for marking traveling experience in US and Europe that accidentally went viral for a week or so - and learned a little javascript when doing it.
+I recently made a [web app](https://tenpages.github.io/us-level/us.html) ([github](https://github.com/tenpages/us-level)) for marking traveling experience in US and Europe that accidentally went viral for a week or so - and learned a little javascript when doing it.
 
 ## Publications
 
