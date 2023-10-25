@@ -13,6 +13,8 @@ My given name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "st
 
 ## Random stuff
 
+I started a podcast discussing musicals. You can find it [here](https://podcasts.apple.com/ca/podcast/%E7%8C%AB%E6%8C%A0%E5%A4%9C%E6%80%BB%E4%BC%9A/id1684163483) or [here](https://open.spotify.com/show/08dz9P84TfsHx73e7dwjLr).
+
 I recently made a [web app](https://tenpages.github.io/us-level/us.html) ([github](https://github.com/tenpages/us-level)) for marking traveling experience in US and Europe that accidentally went viral for a week or so - and learned a little javascript when doing it.
 
 ## Publications
