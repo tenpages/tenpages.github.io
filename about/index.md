@@ -3,7 +3,7 @@ layout: page
 type: about
 ---
 
-This is a personal blog of Shuo Liu (刘硕). I'm currently (2019-) a PhD student in [computer science](https://cs.georgetown.edu/) at [Georgetown University](https://www.georgetown.edu), studying Byzantine fault-tolerant distributed systems for optimization, advised by Prof. [Nitin Vaidya](https://disc.georgetown.domains/). Prior to this, I was a master student at Georgetown in CS (2017-2019), and bachelor student at [Fudan University](http://www.fudan.edu.cn/) in [mathematics](http://math.fudan.edu.cn/) (2013-2017).
+This is a personal blog of Shuo Liu (刘硕). I'm currently (2019-) a PhD Candidate in [computer science](https://cs.georgetown.edu/) at [Georgetown University](https://www.georgetown.edu), studying Byzantine fault-tolerant distributed systems for optimization, advised by Prof. [Nitin Vaidya](https://disc.georgetown.domains/). Prior to this, I was a master student at Georgetown in CS (2017-2019), and bachelor student at [Fudan University](http://www.fudan.edu.cn/) in [mathematics](http://math.fudan.edu.cn/) (2013-2017).
 
 During my master's degree, My advisor was Prof. [Lisa Singh](http://people.cs.georgetown.edu/~singh/), with the help of whom I graduated with thesis "*[Understanding Relational Background Knowledge Attacks on Social Media](https://repository.library.georgetown.edu/handle/10822/1054915)*". We studied privacy concerns of social media users, specifically web footprints that users may leave on websites unintentionally, using data scince approaches.
 
@@ -31,11 +31,12 @@ Find me on *[dblp](https://dblp.org/pid/07/6773-11.html)* and *[Google Scholar](
 
 ### Preprints
 
-1. **Shuo Liu**, and Nitin Vaidya. Byzantine Fault-Tolerant Min-Max Optimization. *arXiv preprint* [arXiv:2205.14881](https://arxiv.org/abs/2205.14881), 2022.
-2. **Shuo Liu**. A Survey on Fault-tolerance in Distributed Optimization and Machine Learning. *arXiv preprint* [arXiv:2106.08545](https://arxiv.org/abs/2106.08545), 2021.
-3. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Asynchronous Distributed Optimization with Redundancy in Cost Functions. *arXiv preprint* [arXiv:2106.03998](https://arxiv.org/abs/2106.03998), 2021.
-4. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Approximate Byzantine fault-tolerance in distributed optimization. *arXiv preprint* [arXiv:2101.09337](https://arxiv.org/abs/2101.09337), 2021.
-5. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning using stochastic gradient descent (SGD) and norm-based comparative gradient elimination (CGE). *arXiv preprint* [arXiv:2008.04699](https://arxiv.org/abs/2008.04699), 2020.
+1. **Shuo Liu** and Nitin Vaidya. Byzantine Fault-Tolerant Distributed Set Intersection with Redundancy. *arXiv preprint* [arXiv:2402.08809](https://arxiv.org/abs/2402.08809), 2024.
+2. **Shuo Liu** and Nitin Vaidya. Byzantine Fault-Tolerant Min-Max Optimization. *arXiv preprint* [arXiv:2205.14881](https://arxiv.org/abs/2205.14881), 2022.
+3. **Shuo Liu**. A Survey on Fault-tolerance in Distributed Optimization and Machine Learning. *arXiv preprint* [arXiv:2106.08545](https://arxiv.org/abs/2106.08545), 2021.
+4. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Asynchronous Distributed Optimization with Redundancy in Cost Functions. *arXiv preprint* [arXiv:2106.03998](https://arxiv.org/abs/2106.03998), 2021.
+5. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. Approximate Byzantine fault-tolerance in distributed optimization. *arXiv preprint* [arXiv:2101.09337](https://arxiv.org/abs/2101.09337), 2021.
+6. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. Byzantine fault-tolerant distributed machine learning using stochastic gradient descent (SGD) and norm-based comparative gradient elimination (CGE). *arXiv preprint* [arXiv:2008.04699](https://arxiv.org/abs/2008.04699), 2020.
 
 ### Talk
 
