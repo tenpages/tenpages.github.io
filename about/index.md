@@ -13,9 +13,7 @@ My given name in chinese 硕 consists of two parts, 石 (sounds Shi, meaning "st
 
 ## Random stuff
 
-I started a podcast discussing musicals. You can find it [here](https://podcasts.apple.com/ca/podcast/%E7%8C%AB%E6%8C%A0%E5%A4%9C%E6%80%BB%E4%BC%9A/id1684163483) or [here](https://open.spotify.com/show/08dz9P84TfsHx73e7dwjLr).
-
-I recently made a [web app](https://tenpages.github.io/us-level/us.html) ([github](https://github.com/tenpages/us-level)) for marking traveling experience in US and Europe that accidentally went viral for a week or so - and learned a little javascript when doing it.
+I made a [web app](https://tenpages.github.io/us-level/us.html) ([github](https://github.com/tenpages/us-level)) for marking traveling experience in US and Europe that accidentally went viral for a week or so - and learned a little javascript when doing it.
 
 ## Publications
 
@@ -23,11 +21,12 @@ Find me on *[dblp](https://dblp.org/pid/07/6773-11.html)* and *[Google Scholar](
 
 ### Conference and workshop papers
 
-1. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. [Impact of Redundancy on Resilience in Distributed Optimization and Learning](/paper/ICDCN2023.pdf). In *24rd International Conference on Distributed Computing and Networking* (*ICDCN 2023*), 2023. DOI: [10.1145/3571306.3571393](https://doi.org/10.1145/3571306.3571393). (Best paper)
-2. **Shuo Liu**, Nirupam Gupta, and Nitin H. Vaidya. Redundancy in cost functions for Byzantine fault-tolerant federated learning. In *Workshop on Systems Challenges in Reliable and Secure Federated Learning*, 2021.
-3. **Shuo Liu**, Nirupam Gupta, and Nitin H. Vaidya. [Approximate Byzantine Fault-Tolerance in Distributed Optimization](/paper/PODC2021.pdf). In *Proceedings of the 2021 ACM Symposium on Principles of Distributed Computing* (*PODC'21*). Association for Computing Machinery, New York, NY, USA, 379–389. DOI: [10.1145/3465084.3467902](https://dl.acm.org/doi/10.1145/3465084.3467902). ([Talk](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3465084.3467902&file=podc-21-full%7E1.mp4))
-4. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. [Byzantine fault-tolerant distributed machine learning with norm-based comparative gradient elimination](/paper/DSN21-full.pdf). In *2021 51th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN-W)*, IEEE, 2021. ([Talk](https://www.youtube.com/watch?v=Yd-wYGc0PzM))
-5. **Shuo Liu**, Lisa Singh, and Kevin Tian. Information exposure from relational background knowledge on social media. In *2020 IEEE International Conference on Data Science and Advanced Analytics (DSAA)*, pages 282–291, 2020, doi: [10.1109/DSAA49011.2020.00041](https://doi.org/10.1109/DSAA49011.2020.00041).
+1. **Shuo Liu** and Nitin Vaidya. Byzantine Fault-Tolerant Distributed Set Intersection with Redundancy and Its Relationship with Byzantine Optimization. In *13rd Edition of the International Conference on Networked Systems* (*NETYS 2025*), 2025. (*To Appear*)
+2. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. [Impact of Redundancy on Resilience in Distributed Optimization and Learning](/paper/ICDCN2023.pdf). In *24rd International Conference on Distributed Computing and Networking* (*ICDCN 2023*), 2023. DOI: [10.1145/3571306.3571393](https://doi.org/10.1145/3571306.3571393). (Best paper)
+3. **Shuo Liu**, Nirupam Gupta, and Nitin H. Vaidya. Redundancy in cost functions for Byzantine fault-tolerant federated learning. In *Workshop on Systems Challenges in Reliable and Secure Federated Learning*, 2021.
+4. **Shuo Liu**, Nirupam Gupta, and Nitin H. Vaidya. [Approximate Byzantine Fault-Tolerance in Distributed Optimization](/paper/PODC2021.pdf). In *Proceedings of the 2021 ACM Symposium on Principles of Distributed Computing* (*PODC'21*). Association for Computing Machinery, New York, NY, USA, 379–389. DOI: [10.1145/3465084.3467902](https://dl.acm.org/doi/10.1145/3465084.3467902). ([Talk](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3465084.3467902&file=podc-21-full%7E1.mp4))
+5. Nirupam Gupta, **Shuo Liu**, and Nitin H Vaidya. [Byzantine fault-tolerant distributed machine learning with norm-based comparative gradient elimination](/paper/DSN21-full.pdf). In *2021 51th Annual IEEE/IFIP International Conference on Dependable Systems and Networks Workshops (DSN-W)*, IEEE, 2021. ([Talk](https://www.youtube.com/watch?v=Yd-wYGc0PzM))
+6. **Shuo Liu**, Lisa Singh, and Kevin Tian. Information exposure from relational background knowledge on social media. In *2020 IEEE International Conference on Data Science and Advanced Analytics (DSAA)*, pages 282–291, 2020, doi: [10.1109/DSAA49011.2020.00041](https://doi.org/10.1109/DSAA49011.2020.00041).
 
 ### Preprints
 
