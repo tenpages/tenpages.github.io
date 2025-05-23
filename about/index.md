@@ -3,9 +3,9 @@ layout: page
 type: about
 ---
 
-This is a personal blog of Shuo Liu (刘硕). I'm currently (2019-) a PhD Candidate in [computer science](https://cs.georgetown.edu/) at [Georgetown University](https://www.georgetown.edu), studying Byzantine fault-tolerant distributed systems for optimization, advised by Prof. [Nitin Vaidya](https://disc.georgetown.domains/). Prior to this, I was a master student at Georgetown in CS (2017-2019), and bachelor student at [Fudan University](http://www.fudan.edu.cn/) in [mathematics](http://math.fudan.edu.cn/) (2013-2017).
+This is a personal blog of Shuo Liu (刘硕). I obtained my PhD in [Computer Science](https://cs.georgetown.edu/) at [Georgetown University](https://www.georgetown.edu) (2019-2024), studying resilient distributed algorithms, advised by Prof. [Nitin Vaidya](https://disc.georgetown.domains/), with dissertation "*[Redundancy in Resilient Distributed Optimization and Related Problems](https://repository.digital.georgetown.edu/handle/10822/1100231)*". Prior to this, I obtained my master's degree in CS at Georgetown (2017-2019), and my bachelor's degree at [Fudan University](http://www.fudan.edu.cn/) in [mathematics](http://math.fudan.edu.cn/) (2013-2017).
 
-During my master's degree, My advisor was Prof. [Lisa Singh](http://people.cs.georgetown.edu/~singh/), with the help of whom I graduated with thesis "*[Understanding Relational Background Knowledge Attacks on Social Media](https://repository.library.georgetown.edu/handle/10822/1054915)*". We studied privacy concerns of social media users, specifically web footprints that users may leave on websites unintentionally, using data scince approaches.
+During my pursuit of the master's degree, my advisor was Prof. [Lisa Singh](http://people.cs.georgetown.edu/~singh/), with the help of whom I graduated with thesis "*[Understanding Relational Background Knowledge Attacks on Social Media](https://repository.library.georgetown.edu/handle/10822/1054915)*". We studied privacy concerns of social media users, specifically web footprints that users may leave on websites unintentionally, using data scince approaches.
 
 The title of my undergraduate thesis is "*Estimation of sparse graph with* lifecycle". My advisor was Prof. Yun Xiong at Fudan University.
 
@@ -21,7 +21,7 @@ Find me on *[dblp](https://dblp.org/pid/07/6773-11.html)* and *[Google Scholar](
 
 ### Conference and workshop papers
 
-1. **Shuo Liu** and Nitin Vaidya. Byzantine Fault-Tolerant Distributed Set Intersection with Redundancy and Its Relationship with Byzantine Optimization. In *13rd Edition of the International Conference on Networked Systems* (*NETYS 2025*), 2025. (*To Appear*)
+1. **Shuo Liu** and Nitin Vaidya. Byzantine Fault-Tolerant Distributed Set Intersection with Redundancy and Its Relationship with Byzantine Optimization. In *13rd Edition of the International Conference on Networked Systems* (*NETYS 2025*), 2025. (*To Appear*) ([Slides](/paper/netys2025-slides.pdf))
 2. **Shuo Liu**, Nirupam Gupta, and Nitin H Vaidya. [Impact of Redundancy on Resilience in Distributed Optimization and Learning](/paper/ICDCN2023.pdf). In *24rd International Conference on Distributed Computing and Networking* (*ICDCN 2023*), 2023. DOI: [10.1145/3571306.3571393](https://doi.org/10.1145/3571306.3571393). (Best paper)
 3. **Shuo Liu**, Nirupam Gupta, and Nitin H. Vaidya. Redundancy in cost functions for Byzantine fault-tolerant federated learning. In *Workshop on Systems Challenges in Reliable and Secure Federated Learning*, 2021.
 4. **Shuo Liu**, Nirupam Gupta, and Nitin H. Vaidya. [Approximate Byzantine Fault-Tolerance in Distributed Optimization](/paper/PODC2021.pdf). In *Proceedings of the 2021 ACM Symposium on Principles of Distributed Computing* (*PODC'21*). Association for Computing Machinery, New York, NY, USA, 379–389. DOI: [10.1145/3465084.3467902](https://dl.acm.org/doi/10.1145/3465084.3467902). ([Talk](https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3465084.3467902&file=podc-21-full%7E1.mp4))
