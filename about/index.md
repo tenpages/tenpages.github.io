@@ -39,4 +39,4 @@ Find me on *[dblp](https://dblp.org/pid/07/6773-11.html)* and *[Google Scholar](
 
 ### Talk
 
-1. Redundancy and resilience in distributed optimization. Georgetown University, 02/2023. ([slides](/paper/Redundancy_talk.pdf))
+1. Redundancy and resilience in distributed optimization. Georgetown University, 02/2023 ([slides](/paper/Redundancy_talk.pdf)).
